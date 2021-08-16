@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form    (  Design  )  </title>
+
+
+    <style>
+        .form{
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 24px;
+        }
+        .labels{
+            margin: 0;
+            
+            padding-top: 10px;
+        }
+        .inputs{
+            width: 100%;
+        }
+
+
+
+    </style>
+</head>
+<body style="background-color: thistle;">
+    <h1 style="text-align: center;">Sign Up Forms</h1>
+    <form action="" style="background-color:whitesmoke;" class="form">
+       <p class="labels"> username:  </p> <br>
+        <input class="inputs" type="text" name="username" id="username"><br>
+        <p class="labels"> email:  </p> <br>
+        <input class="inputs" type="email" name="email" id="email"><br>
+       <p class="labels"> password: </p> <br>
+        <input class="inputs" type="password" name="password" id="password"><br>
+        <p class="labels"> confirm password:</p> <br>
+        <input class="inputs" type="password" name="confirm password" id="confirm password"><br>
+        <p class="labels"> Gender: </p> <br>
+        <input type="radio" name="male" id="male">male</input>
+        <input type="radio" name="female" id="female">male</input>
+        <input type="radio" name="others" id="others">others</input><br>
+      
+        <p class="labels"> security question: </p> <br>
+        <select name="security question" id="" class="inputs">
+            <option value="what is you pet name">What is your pet Name</option>
+            <option value="what is your girlfriend name"> What is your girlfriend Name</option>
+        </select><br>
+        <textarea style="margin-top: 15px;" class="inputs" name="answers" id="answers" cols="30" rows="10"></textarea><br>
+        <input style="margin-top: 20px; margin-bottom: 20px ;" type="checkbox" name="term-conditions" id="accept">I agree all terms and term-conditions</input><br>
+
+        
+        <input type="submit" value="register">
+
+        
+
+    </form>
+    
+</body>
+</html>
